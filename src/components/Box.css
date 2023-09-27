@@ -1,0 +1,27 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 10px;
+}
+
+.no{
+    font-size: 14px;
+}
+
+.image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.b-name{
+    font-size: 14px;
+}
+
+.b-point{
+    background-color: #FFC102;
+    border-radius: 16px;
+    padding: 7px;
+    width: fit-content;
+}

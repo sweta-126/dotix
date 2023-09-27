@@ -1,0 +1,107 @@
+.home{
+    background-color: white;
+}
+
+.home-top{
+    background-image: url("/public/assets/bg.png");
+    border-radius: 30px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.h-name{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.h-img{
+    border-radius: 50%;
+    border: 4px solid white;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.h-popular{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.h-tag{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.populars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.popular{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.icon{
+    font-size: 40px;
+    margin: 10px;
+    color: #E19B24;
+}
+
+.h-categories{
+    padding: 16px;
+    margin-top: 20px;
+}
+
+.h-view{
+  position: absolute;
+  right: 10px;
+}
+
+.h-category-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.h-category{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #E19B24;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .h-category-list{
+        gap: 5px;
+    }
+    .h-name{
+        font-size: 22px;
+        font-weight: 700;
+        color: white;
+    }
+}
